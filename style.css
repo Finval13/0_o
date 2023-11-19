@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 25%;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 0, 0.504);
+  padding: 15px;
+}
+
+ul {
+  margin: 20px auto;
+}
+
+li {
+  color: grey;
+  font-size: 24px;
+  padding: 5px;
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bd {
+  width: 50px;
+  height: 50px;
+  background-image: url(sprite/sprite.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0;
+}
+
+.active {
+  background-position: -50px 0;
+  color: black;
+}
